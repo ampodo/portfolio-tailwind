@@ -12,7 +12,6 @@ const Portfolio = () => {
       id: 1,
       src: strapi,
       href: "https://github.com/ampodo/online-shop-strapi",
-      
     },
     {
       id: 2,
@@ -41,11 +40,6 @@ const Portfolio = () => {
     },
   ];
 
-
-  
-
-
-
   return (
     <div
       name="portfolio"
@@ -56,24 +50,29 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-2 border-emerald-500">
             Portfolio
           </p>
-          <p className="py-6">Some of my projects which are available for viewing.</p>
+          <p className="py-6">
+            Some of my projects which are available for viewing.
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({id, src, href}) => (
-            <div key={id} className="shadow-md shadow-emerald-600 rounded-lg bg-black">
+          {portfolios.map(({ id, src, href }) => (
+            <div
+              key={id}
+              className="shadow-md shadow-emerald-600 rounded-lg bg-black"
+            >
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-            
+
               <div className="flex items-center justify-center">
-              <ul className=" px-6 py-2 m-4">
-               <li className="list">
-                 <a href={href}>Demo</a> 
-                 </li>   
-                   </ul>
+                <ul className=" px-6 py-2 m-4">
+                  <li className="list">
+                    <a href={href}>Demo</a>
+                  </li>
+                </ul>
               </div>
             </div>
           ))}

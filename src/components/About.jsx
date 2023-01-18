@@ -13,24 +13,8 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
-        </p>
-
-        <br />
-
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        <p className="text-lg mt-10 leading-8">
+        I am a devoted front-end engineer who likes creating responsive web applications. Most of the time, I work with the React.js framework. Besides, I acquired the React.js license from W3Schools. I used the Redux state management tool while developing an e-commerce store in the.NET environment. My favorite React component library is MUI. I am always trying to make the client experience on the front side as smooth as possible. Very often, I worked with the RESTful API interface for accessing and using data, so I am familiar with POST and GET requests.
         </p>
       </div>
     </div>

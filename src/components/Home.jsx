@@ -11,7 +11,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h3 className="text-4xl sm:text-6xl font-bold text-white">
+          <h3 className="text-4xl sm:text-5xl font-bold text-white mt-6">
             I'm a Front end Developer
           </h3>
           <p className="text-white py-5 max-w-md">
@@ -35,11 +35,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className="">
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-full mb-8"
           />
         </div>
       </div>

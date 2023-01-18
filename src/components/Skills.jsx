@@ -8,7 +8,6 @@ import material from "../assets/material.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import nextjs from "../assets/nextjs.png";
 
 const Skills = () => {
   const techs = [
@@ -60,13 +59,6 @@ const Skills = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
-
-    {
-        id: 8,
-        src: nextjs,
-        title: "Next",
-        style: "shadow-white",
-      },
   ];
 
   return (
@@ -76,13 +68,15 @@ const Skills = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mt-16">
-          <p className="text-4xl font-bold border-b-2 border-emerald-500 p-2 inline">
+          <p className="text-4xl font-bold inline border-b-2 border-emerald-500">
             Experience
           </p>
-          <p className="py-6">Technical stack that I have used in my projects.</p>
+          <p className="py-6">
+            Technical stack that I have used in my projects.
+          </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 px-12 sm:px-0">
+        <div className="w-full sm:h-2/3 grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
