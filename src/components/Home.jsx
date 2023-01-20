@@ -7,18 +7,18 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black to-gray-500"
+      className=" w-full bg-gradient-to-b from-black to-gray-500"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          <h3 className="text-4xl sm:text-5xl font-bold text-white mt-6">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 py-24 md:flex-row">
+        <div className="flex flex-col justify-center h-full mt-4">
+          <h3 className="text-4xl sm:text-5xl font-bold text-white mt-6 ">
             I'm a Front end Developer
           </h3>
           <p className="text-white py-5 max-w-md">
             I have 2 years of experience building applications. Technologies
             that I have used in my projects include React.js, Typescript,
             Formik, Material UI, GraphQL, Materializecss, RESTful API,
-            Tailwind.css, .NET environment, Docker, Heroku.
+            Tailwind.css, .NET environment, Docker,&nbsp;Heroku.
           </p>
           <div>
             <Link
@@ -39,7 +39,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full mb-8"
+            className="rounded-2xl mx-auto w-2/3 md:w-full mt-8"
           />
         </div>
       </div>

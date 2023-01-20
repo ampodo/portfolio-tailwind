@@ -64,10 +64,10 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-black to-gray-500 w-full h-screen"
+      className="bg-gradient-to-b from-black to-gray-500 w-full "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div className="mt-16">
+        <div className="mt-20">
           <p className="text-4xl font-bold inline border-b-2 border-emerald-500">
             Experience
           </p>
@@ -75,7 +75,7 @@ const Skills = () => {
             Technical stack that I have used in my projects.
           </p>
         </div>
-
+          
         <div className="w-full  grid grid-cols-2 sm:grid-cols-3 gap-4 text-center pb-8 mb-8 px-12 ">
           {techs.map(({ id, src, title, style }) => (
             <div

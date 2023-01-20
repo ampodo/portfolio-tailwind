@@ -38,20 +38,21 @@ const Portfolio = () => {
       src: movies,
       href: "https://github.com/ampodo/movies",
     },
+
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-500 text-white w-full md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-500 text-white w-full "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8 mt-16">
-          <p className="text-4xl font-bold inline border-b-2 border-emerald-500">
+        <div className="pb-8 mt-20">
+          <p className="text-4xl font-bold inline border-b-2 border-emerald-500 ">
             Portfolio
           </p>
           <p className="py-6">
-            Some of my projects which are available for viewing.
+            Some of my projects which are available for&nbsp;viewing.
           </p>
         </div>
 
@@ -64,7 +65,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md "
               />
 
               <div className="flex items-center justify-center">
