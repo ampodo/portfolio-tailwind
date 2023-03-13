@@ -18,7 +18,7 @@ const Home = () => {
             I have 2 years of experience building applications. Technologies
             that I have used in my projects include React.js, Typescript,
             Formik, Material UI, GraphQL, Materializecss, RESTful API,
-            Tailwind.css, .NET environment, Docker,&nbsp;Heroku.
+            Tailwind.css, .NET environment, Strapi, Docker,&nbsp;Heroku.
           </p>
           <div>
             <Link
