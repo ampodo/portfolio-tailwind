@@ -16,9 +16,8 @@ const Home = () => {
           </h3>
           <p className="text-white py-5 max-w-md">
             I have 2 years of experience building applications. Technologies
-            that I have used in my projects include React.js, Typescript,
-            Formik, Material UI, GraphQL, Materializecss, RESTful API,
-            Tailwind.css, .NET environment, Strapi, Docker,&nbsp;Heroku.
+            that I have used in my projects include React.js, GraphQL, SQL, Materializecss, RESTful API,
+            Tailwind.css, SCSS and Strapi.
           </p>
           <div>
             <Link

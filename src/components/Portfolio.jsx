@@ -3,7 +3,7 @@ import strapi from "../assets/portfolio/strapi.jpg";
 import food from "../assets/portfolio/food.jpg";
 import tracker from "../assets/portfolio/tracker.jpg";
 import blog from "../assets/portfolio/blog.jpg";
-import commerce from "../assets/portfolio/commerce.jpg";
+
 import movies from "../assets/portfolio/movies.jpg";
 
 const Portfolio = () => {
@@ -28,19 +28,15 @@ const Portfolio = () => {
       src: blog,
       href: "https://github.com/ampodo/crypto_blog_react",
     },
+    
     {
       id: 5,
-      src: commerce,
-      href: "https://github.com/ampodo/E-commerce",
-    },
-    {
-      id: 6,
       src: movies,
       href: "https://github.com/ampodo/movies",
     },
 
   ];
-
+  
   return (
     <div
       name="portfolio"
