@@ -6,6 +6,8 @@ import reactImage from "../assets/react.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import material from "../assets/material.png";
+import typescript from "../assets/typescript.png";
 
 const Skills = () => {
   const techs = [
@@ -52,6 +54,20 @@ const Skills = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 8,
+      src: material,
+      title: "Material",
+      style: "shadow-blue-400",
+    },
+
+    {
+      id: 9,
+      src: typescript,
+      title: "Typescript",
+      style: "shadow-sky-600",
+    },
+
   ];
 
   return (
