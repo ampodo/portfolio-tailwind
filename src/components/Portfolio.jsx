@@ -3,7 +3,6 @@ import strapi from "../assets/portfolio/strapi.jpg";
 import food from "../assets/portfolio/food.jpg";
 import tracker from "../assets/portfolio/tracker.jpg";
 import blog from "../assets/portfolio/blog.jpg";
-
 import movies from "../assets/portfolio/movies.jpg";
 
 const Portfolio = () => {

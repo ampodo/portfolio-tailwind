@@ -64,12 +64,12 @@ const Skills = () => {
     {
       id: 9,
       src: typescript,
-      title: "Typescript",
+      title: "TypeScript",
       style: "shadow-sky-600",
     },
 
   ];
-
+   
   return (
     <div
       name="skills"
