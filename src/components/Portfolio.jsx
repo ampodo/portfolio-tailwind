@@ -4,6 +4,7 @@ import food from "../assets/portfolio/food.jpg";
 import tracker from "../assets/portfolio/tracker.jpg";
 import blog from "../assets/portfolio/blog.jpg";
 import movies from "../assets/portfolio/movies.jpg";
+import dash from "../assets/portfolio/dash.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -14,8 +15,8 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: food,
-      href: "https://github.com/ampodo/react-sap-food-menu",
+      src: dash,
+      href: "https://github.com/ampodo/finance-app",
     },
     {
       id: 3,
@@ -33,6 +34,12 @@ const Portfolio = () => {
       src: movies,
       href: "https://github.com/ampodo/movies",
     },
+
+    {
+      id: 6,
+      src: food,
+      href: "https://github.com/ampodo/react-sap-food-menu",
+    },    
 
   ];
   
