@@ -4,7 +4,7 @@ import food from "../assets/portfolio/food.jpg";
 import tracker from "../assets/portfolio/tracker.jpg";
 import blog from "../assets/portfolio/blog.jpg";
 import movies from "../assets/portfolio/movies.jpg";
-import dash from "../assets/portfolio/dash.jpg";
+import board from "../assets/portfolio/board.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -15,7 +15,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: dash,
+      src: board,
       href: "https://github.com/ampodo/finance-app",
     },
     {
