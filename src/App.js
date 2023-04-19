@@ -1,4 +1,4 @@
-
+import { Suspense } from 'react'
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div>
+      <Suspense fallback={null}>
        <NavBar />
        <Home />
        <About />
@@ -18,7 +19,7 @@ function App() {
       <Contact/>
 
        <SocialLinks />
-
+       </Suspense>
     </div>
   );
 }

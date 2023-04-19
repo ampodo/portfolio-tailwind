@@ -1,9 +1,24 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+
+  const { i18n, t } = useTranslation(["common"]);
+
+  useEffect(() => {
+    if (localStorage.getItem("i18nextLng")?.length > 2) {
+      i18next.changeLanguage("en");
+    }
+  }, []);
+
+  const handleLanguageChange = (e) => {
+    i18n.changeLanguage(e.target.value);
+  };
 
   const links = [
     {
@@ -31,7 +46,21 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-      <img className="ml-2 h-12" alt="" src={process.env.PUBLIC_URL + '/icons/iconic.png'}/>
+        <img
+          className="ml-2 h-12"
+          alt=""
+          src={process.env.PUBLIC_URL + "/icons/iconic.png"}
+        />
+      </div>
+      <div className="ml-2">
+        <select
+          className="bg-transparent border border-white rounded-md text-white py-1 px-2 focus:outline-none"
+          value={localStorage.getItem("i18nextLng")}
+          onChange={handleLanguageChange}
+        >
+          <option value="en">English</option>
+          <option value="itl">Italian</option>
+        </select>
       </div>
 
       <ul className="hidden md:flex">
@@ -41,7 +70,7 @@ const NavBar = () => {
             className="px-4 cursor-pointer capitalize font-medium text-white-500  hover:text-emerald-500 duration-200"
           >
             <Link to={link} smooth duration={500}>
-              {link}
+              {t(link)}
             </Link>
           </li>
         ))}
@@ -67,7 +96,7 @@ const NavBar = () => {
                 smooth
                 duration={500}
               >
-                {link}
+                {t(link)}
               </Link>
             </li>
           ))}

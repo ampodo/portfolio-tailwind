@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation(["about"]);
+
   return (
     <div
       name="about"
@@ -9,13 +12,11 @@ const About = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 mt-[-40px]">
           <p className="text-4xl font-bold inline border-b-2 border-emerald-500">
-            About
+            {t("about")}
           </p>
         </div>
 
-        <p className="text-lg mt-10 leading-8">
-        I am a devoted front-end engineer who likes creating responsive web applications. Most of the time, I work with the React.js framework. I am always trying to make the client experience on the front side as smooth as possible. Very often, I worked with the RESTful API interface for accessing and using data, so I am familiar with POST and GET requests. I like to use headless CMS like Strapi for back-end systems.
-        </p>
+        <p className="text-lg mt-10 leading-8">{t("mydescription")}</p>
       </div>
     </div>
   );

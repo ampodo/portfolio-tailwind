@@ -8,6 +8,7 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import material from "../assets/material.png";
 import typescript from "../assets/typescript.png";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
   const techs = [
@@ -41,7 +42,7 @@ const Skills = () => {
       title: "Tailwind",
       style: "shadow-sky-400",
     },
-    
+
     {
       id: 6,
       src: graphql,
@@ -57,7 +58,7 @@ const Skills = () => {
     {
       id: 8,
       src: material,
-      title: "Material",
+      title: "Material UI",
       style: "shadow-blue-400",
     },
 
@@ -67,9 +68,10 @@ const Skills = () => {
       title: "TypeScript",
       style: "shadow-sky-600",
     },
-
   ];
-   
+
+  const { t } = useTranslation(["experience"]);
+
   return (
     <div
       name="skills"
@@ -78,13 +80,11 @@ const Skills = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mt-20">
           <p className="text-4xl font-bold inline border-b-2 border-emerald-500">
-            Experience
+            {t("skills")}
           </p>
-          <p className="py-6">
-            Technical stack that I have used in my projects.
-          </p>
+          <p className="py-6">{t("stack")}</p>
         </div>
-          
+
         <div className="w-full  grid grid-cols-2 sm:grid-cols-3 gap-4 text-center pb-8 mb-8 px-12 ">
           {techs.map(({ id, src, title, style }) => (
             <div

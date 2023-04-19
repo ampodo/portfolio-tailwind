@@ -5,6 +5,7 @@ import tracker from "../assets/portfolio/tracker.jpg";
 import blog from "../assets/portfolio/blog.jpg";
 import movies from "../assets/portfolio/movies.jpg";
 import board from "../assets/portfolio/board.jpg";
+import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
   const portfolios = [
@@ -28,7 +29,7 @@ const Portfolio = () => {
       src: blog,
       href: "https://github.com/ampodo/crypto_blog_react",
     },
-    
+
     {
       id: 5,
       src: movies,
@@ -39,10 +40,11 @@ const Portfolio = () => {
       id: 6,
       src: food,
       href: "https://github.com/ampodo/react-sap-food-menu",
-    },    
-
+    },
   ];
-  
+
+  const { t } = useTranslation(["portfolio"]);
+
   return (
     <div
       name="portfolio"
@@ -51,11 +53,9 @@ const Portfolio = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 mt-20">
           <p className="text-4xl font-bold inline border-b-2 border-emerald-500 ">
-            Portfolio
+            {t("heading")}
           </p>
-          <p className="py-6">
-            Some of my projects which are available for&nbsp;viewing.
-          </p>
+          <p className="py-6">{t("projects")}</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -64,11 +64,7 @@ const Portfolio = () => {
               key={id}
               className="shadow-md shadow-emerald-600 rounded-lg bg-black"
             >
-              <img
-                src={src}
-                alt=""
-                className="rounded-md "
-              />
+              <img src={src} alt="" className="rounded-md " />
 
               <div className="flex items-center justify-center">
                 <ul className=" px-6 py-2 m-4">
