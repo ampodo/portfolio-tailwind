@@ -14,16 +14,16 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 py-24 md:flex-row">
         <div className="flex flex-col justify-center h-full mt-4">
-          <h3 className="text-4xl sm:text-5xl font-bold text-white mt-6 ">
+          <h3 className="text-4xl font-bold text-white mt-6 mx-4 ">
             {t("me")}
           </h3>
-          <p className="text-white py-5 max-w-md">{t("paragraph")}</p>
+          <p className="text-white py-5 max-w-md mx-4">{t("paragraph")}</p>
           <div>
             <Link
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient bg-emerald-500 cursor-pointer"
+              className="group text-white w-fit px-6 py-3 my-2 mx-4 flex items-center rounded-md bg-gradient bg-emerald-500 cursor-pointer"
             >
               {t("portfolio")}
               <span className="group-hover:rotate-90 duration-300">
@@ -37,7 +37,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full mt-8"
+            className="rounded-2xl  w-2/3 md:w-full mt-8 mx-auto"
           />
         </div>
       </div>
