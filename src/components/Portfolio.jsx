@@ -3,7 +3,7 @@ import strapi from "../assets/portfolio/strapi.jpg";
 import food from "../assets/portfolio/food.jpg";
 import tracker from "../assets/portfolio/tracker.jpg";
 import blog from "../assets/portfolio/blog.jpg";
-import movies from "../assets/portfolio/movies.jpg";
+import gold from "../assets/portfolio/gold.jpg";
 import board from "../assets/portfolio/board.jpg";
 import { useTranslation } from "react-i18next";
 
@@ -19,11 +19,13 @@ const Portfolio = () => {
       src: board,
       href: "https://github.com/ampodo/finance-app",
     },
+
     {
       id: 3,
-      src: tracker,
-      href: "https://github.com/ampodo/crypto-price-tracker",
+      src: gold,
+      href: "https://github.com/ampodo/logistics-website",
     },
+
     {
       id: 4,
       src: blog,
@@ -32,8 +34,8 @@ const Portfolio = () => {
 
     {
       id: 5,
-      src: movies,
-      href: "https://github.com/ampodo/movies",
+      src: tracker,
+      href: "https://github.com/ampodo/crypto-price-tracker",
     },
 
     {
