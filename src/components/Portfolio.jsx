@@ -23,7 +23,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: gold,
-      href: "https://github.com/ampodo/logistics-website",
+      href: "https://logistics-portfolio.pages.dev",
     },
 
     {
