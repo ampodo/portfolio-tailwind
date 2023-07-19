@@ -54,7 +54,7 @@ const NavBar = () => {
       </div>
       <div className="ml-2">
         <select
-          className="bg-transparent border border-white rounded-md text-white py-1 mx-4 focus:outline-none text-sm"
+          className="bg-transparent border border-white rounded-md text-white py-1 px-1 mx-4 focus:outline-none text-sm"
           value={localStorage.getItem("i18nextLng")}
           onChange={handleLanguageChange}
         >
