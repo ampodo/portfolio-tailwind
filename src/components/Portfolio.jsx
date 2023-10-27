@@ -1,50 +1,50 @@
 import React from "react";
 import strapi from "../assets/portfolio/strapi.jpg";
-import food from "../assets/portfolio/food.jpg";
-import tracker from "../assets/portfolio/tracker.jpg";
-import blog from "../assets/portfolio/blog.jpg";
+import cars from "../assets/portfolio/cars.jpg";
 import gold from "../assets/portfolio/gold.jpg";
-import board from "../assets/portfolio/board.jpg";
+import dashboard from "../assets/portfolio/dashboard.jpg";
+import blog from "../assets/portfolio/blog.jpg";
+import tracker from "../assets/portfolio/tracker.jpg";
 import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: cars,
+      href: "https://car-rentals-app.vercel.app/login",
+    },
+
+    {
+      id: 2,
       src: strapi,
       href: "https://github.com/ampodo/online-shop-strapi",
     },
-    {
-      id: 2,
-      src: board,
-      href: "https://github.com/ampodo/finance-app",
-    },
-
     {
       id: 3,
       src: gold,
       href: "https://goldserviceou.com",
     },
-     
     {
       id: 4,
+      src: dashboard,
+      href: "https://github.com/ampodo/finance-app",
+    },
+  
+    {
+      id: 5,
       src: blog,
       href: "https://github.com/ampodo/crypto_blog_react",
     },
 
     {
-      id: 5,
+      id: 6,
       src: tracker,
       href: "https://github.com/ampodo/crypto-price-tracker",
     },
-
-    {
-      id: 6,
-      src: food,
-      href: "https://github.com/ampodo/react-sap-food-menu",
-    },
+ 
   ];
-
+  
   const { t } = useTranslation(["portfolio"]);
 
   return (

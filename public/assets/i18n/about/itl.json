@@ -1,6 +1,5 @@
 {
     "about": "Chi Siamo",
-    "mydescription": "Sono un devoto ingegnere front-end a cui piace creare applicazioni web reattive. La maggior parte delle volte utilizzo il framework React.js con un preprocessore SASS. Cerco sempre di rendere l'esperienza del cliente il più agevole possibile. Spesso lavoro con gli endpoint API RESTful per l'accesso e l'utilizzo dei dati, quindi ho familiarità con le richieste POST e GET. Mi piace usare CMS headless come Strapi per la gestione dei dati. Ho una buona conoscenza dell'API React Context e di Redux per la gestione dello stato delle applicazioni web."
+    "mydescription": "Sono un appassionato ingegnere front-end che ama creare applicazioni web responsive. Nella maggior parte dei casi, utilizzo React.js con il framework Next.js e Tailwind CSS per lo stile dell'interfaccia utente. Cerco sempre di rendere l'esperienza del cliente sul lato front-end il più fluida possibile. Spesso lavoro con gli endpoint API RESTful per accedere ed utilizzare i dati, quindi sono familiare con le richieste POST e GET. Mi piace utilizzare CMS headless come Strapi per la gestione dei dati. Ho una buona comprensione dell'API di contesto di React e di Redux per la gestione dello stato delle applicazioni web."
     
-
 }
