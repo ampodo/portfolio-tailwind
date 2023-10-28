@@ -71,7 +71,7 @@ const Portfolio = () => {
               <div className="flex items-center justify-center">
                 <ul className=" px-6 py-2 m-4">
                   <li className="list">
-                    <a href={href}>Demo</a>
+                    <a href={href}>Deployed</a>
                   </li>
                 </ul>
               </div>
