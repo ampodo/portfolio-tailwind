@@ -12,7 +12,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: cars,
-      href: "https://car-rentals-app.vercel.app/login",
+      href: "https://github.com/ampodo/car-rental-app",
     },
 
     {
