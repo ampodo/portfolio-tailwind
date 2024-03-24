@@ -23,7 +23,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: gold,
-      href: "https://goldserviceou.com",
+      href: "https://goldservice-check-model.pages.dev/",
     },
     {
       id: 4,
