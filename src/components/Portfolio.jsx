@@ -23,7 +23,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: gold,
-      href: "https://goldservice-check-model.pages.dev/",
+      href: "https://logistics-website-video.vercel.app/",
     },
     {
       id: 4,
@@ -71,7 +71,7 @@ const Portfolio = () => {
               <div className="flex items-center justify-center">
                 <ul className=" px-6 py-2 m-4">
                   <li className="list">
-                    <a href={href}>Deployed</a>
+                    <a href={href}>Check project</a>
                   </li>
                 </ul>
               </div>
